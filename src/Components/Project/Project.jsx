@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Project = () => {
   return (
-    <div className="mt-96">
+    <div className="pt-96">
       <span className="font-normal text-xl text-main dark:text-darktextsub tracking-[5px]">PORTFOLIO</span>
       <h1 className="font-bold text-4xl text-paragraph dark:text-white">Recent Work</h1>
       <div className="flex flex-col md:flex-row justify-center mt-12 md:space-x-6">

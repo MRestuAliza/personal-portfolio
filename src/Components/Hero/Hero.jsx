@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <div className=" mt-60">
+    <div className="hero pt-[15rem]">
       <div className="md:flex md:items-center md:space-x-60">
         <div className=" text-center md:text-left justify-center">
           <h3 className=" font-medium text-lg text-paragraph dark:text-[#b8c1ec] md:text-2xl">Hi there, my name is</h3>

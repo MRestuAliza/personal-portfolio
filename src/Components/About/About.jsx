@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const About = () => {
   return (
     <motion.div
-      className="mt-96"
+      className="pt-[19rem]"
       initial={{
         opacity: 0,
       }}
