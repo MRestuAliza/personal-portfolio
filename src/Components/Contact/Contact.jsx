@@ -41,10 +41,10 @@ const Contact = () => {
       <motion.h1 className="text-center text-xl pb-4 text-paragraph">Contact Me</motion.h1>
       <h1 className="text-center font-extrabold text-3xl text-paragraph dark:text-paragraph">Got a Project? Lets Talk!</h1>
       <div className="flex flex-col items-center justify-center pt-12">
-        <img src="/src/assets/mail1.png" alt="mail" className="w-12" />
+        <img src="mail1.png" alt="mail" className="w-12" />
         <div>
           <motion.button
-            onClick={() => handleCopyClick("blablabla@gmail.com")}
+            onClick={() => handleCopyClick("muhrestualizaakbar@gmail.com")}
             onMouseEnter={() => setShowPopup(true)}
             onMouseLeave={() => setShowPopup(false)}
             onTouchStart={handlePopupToggle}
@@ -52,11 +52,11 @@ const Contact = () => {
             className="font-semibold text-lg text-paragraph relative"
             whileHover={{ y: -5, transition: { duration: 0.2 } }}
           >
-            blablabla@gmail.com
+            muhrestualizaakbar@gmail.com
             {showPopup && (
               <div>
                 <motion.div className="border rounded-xl border-paragraph text-paragraph py-1 absolute left-0 right-0" initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }}>
-                  <button onClick={() => handleCopyClick("blablabla@gmail.com")}>{isCopied ? "Copied" : "Click to Copy"}</button>
+                  <button onClick={() => handleCopyClick("muhrestualizaakbar@gmail.com")}>{isCopied ? "Copied" : "Click to Copy"}</button>
                 </motion.div>
               </div>
             )}
