@@ -19,7 +19,11 @@ const Hero = () => {
           </motion.button>
           <div className="flex justify-center md:justify-normal pt-2 space-x-5">
             <div class="hs-tooltip  [--placement:bottom]">
-              <a href="" target="_blank" class="hs-tooltip-toggle w-10 h-10 inline-flex justify-center items-center gap-2 rounded-full dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 ">
+              <a
+                href="https://www.linkedin.com/in/muh-restu-aliza-akbar-751645243/"
+                target="_blank"
+                class="hs-tooltip-toggle w-10 h-10 inline-flex justify-center items-center gap-2 rounded-full dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 "
+              >
                 <Icon path={mdiLinkedin} size={1.7} className="opacity-50" />
                 <span
                   class="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity inline-block absolute invisible z-10 py-1 px-2 bg-gray-900 text-xs font-medium text-white rounded-md shadow-sm dark:bg-slate-700"
@@ -31,7 +35,7 @@ const Hero = () => {
             </div>
 
             <div class="hs-tooltip inline-block [--placement:bottom]">
-              <a href="" target="_blank" class="hs-tooltip-toggle w-10 h-10 inline-flex justify-center items-center gap-2 rounded-full  dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 ">
+              <a href="https://github.com/MRestuAliza" target="_blank" class="hs-tooltip-toggle w-10 h-10 inline-flex justify-center items-center gap-2 rounded-full  dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 ">
                 <Icon path={mdiGithub} size={1.7} className="opacity-50" />
                 <span
                   class="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity inline-block absolute invisible z-10 py-1 px-2 bg-gray-900 text-xs font-medium text-white rounded-md shadow-sm dark:bg-slate-700"
